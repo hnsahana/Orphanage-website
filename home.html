@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="style.css">
+
+    <!--fontawesome-->
+    <script src="https://kit.fontawesome.com/ba2108e224.js" crossorigin="anonymous"></script>
+    <title>Homepage</title>
+    <link rel="icon" type="image/icon" href="images/logo.jpeg">
+</head>
+<body class="home">
+
+    <!--navigation-->
+    <header class="header">
+        <nav class="navbar navbar-expand-lg  ">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Blossom Trust</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+              </button>
+              <div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Support Us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="volunteer.php">Volunteer</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="donate.html">Donate</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="gallery_display.php">Gallery</a>
+                  </li>
+                </ul>
+                <ul class="navbar-nav ms-auto">
+                    <button class="btn" ><a href="donate.html">DONATE</a></button>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    
+    <!--slider-->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="images/boy.jpeg" class="d-block w-100" alt="image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DAYSPRING ORPHANAGE</h5>
+              <p>Give a gift. Change a life.</p>
+              <div class="slider-btn">
+                  <button class="btn"><a href="donate.html">MAKE A DONATION</a></button>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/abc.jpg" class="d-block w-100" alt="image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DAYSPRING ORPHANAGE</h5>
+              <p>For it is in giving that we receive.</p>
+              <div class="slider-btn">
+                <button class="btn"><a href="volunteer.html">BECOME A VOLUNTEER</a></button>
+            </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="images/children.img.jpg" class="d-block w-100" alt="image">
+            <div class="carousel-caption d-none d-md-block">
+              <h5>DAYSPRING ORPHANAGE</h5>
+              <p>It’s not how much we give but how much love we put into giving.</p>
+              <div class="slider-btn">
+                <button class="btn"><a href="about.html">KNOW MORE ABOUT US</a></button>
+            </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!-- cards -->
+    <div class="card-container">
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="card box-shadow">
+              <div class="card-body">
+                <h5 class="card-title">Donate</h5>
+                <p class="card-text">Even the smallest amount can make a big difference.Find out ways how you can support our young children through Blossom Trust and Dayspring Home projects.</p>
+                <a href="donate.html" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card box-shadow" >
+              <div class="card-body">
+                <h5 class="card-title">Know us</h5>
+                <p class="card-text">Some ideas need to be piloted, to see how they are received and how they benefit the community. We support these initiatives, to ensure the best ideas reach the last mile.</p>
+                <a href="about.html" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="card box-shadow" >
+              <div class="card-body">
+                <h5 class="card-title">Volunteer</h5>
+                <p class="card-text">Dayspring Home and Dayspring Farm are always looking for volunteers that would like to help in the garden, house or spend some time with our children.</p>
+                <a href="volunteer.php" class="btn btn-primary">Know more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="row mb-5">
+          <div class="col-md-4 mb-4">
+            <h2>Blossom Trust</h2>
+            <p>Dayspring Children's Home provides refuge to children between 6 and 16, affected or infected with HIV/AIDS. The children we care for are vulnerable, coming from severe poverty, parental death or social stigma.</p>
+          </div>
+
+          <div class="col-md-4 mb-5">
+            <h2>Contact &amp; Address</h2>
+            <ul class="list-unstyled footer-link">
+              <li class="d-flex">
+                <span class="me-3">Address:</span><span class="text-white">77, Sekkilar St, Sivagami Puram, Virudhunagar, Tamil Nadu 626001
+                </span>
+              </li>
+              <li class="d-flex">
+                <span class="me-3">Telephone:</span><span class="text-white">04562-269236, 6374484286</span>
+              </li>
+              <li class="d-flex">
+                <span class="me-3">Email:</span><span class="text-white">blossomtrust@gmail.com</span>
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4">
+            <h2>Social media</h2><br>
+            <ul class="list-unstyled footer-link d-flex footer-social">
+              <li><a href="#"><span class="fa fa-facebook"></span></a></li>
+              <li><a href="#"><span class="fa fa-instagram"></span></a></li>
+              <li><a href="#"><span class="fa fa-twitter"></span></a></li>
+              <li><a href="#"><span class="fa fa-linkedin"></span></a></li>
+            </ul>
+          </div>
+
+          <div class="row">
+            <div class="col-12 text-md-center text-left">
+              <p></p>
+            </div>
+          </div>
+        </div>
+
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62945.785678766144!2d77.91728277910158!3d9.585647500000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b012c963f460195%3A0xa97f28d3f570abc3!2sBlossom%20Trust!5e0!3m2!1sen!2sin!4v1645792222925!5m2!1sen!2sin" width="800" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </footer>
+
+    <!-- js bootstrap-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
